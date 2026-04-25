@@ -110,7 +110,8 @@ li:hover .perfil__texto {
 
 .container__background {
     background-image: url(img/Background-principal.png);
-    background-repeat: repeat-x;
+    background-size: cover;      /* This makes the image cover the entire container */
+    background-position: center;
     padding-bottom: 15%;
 }
 
